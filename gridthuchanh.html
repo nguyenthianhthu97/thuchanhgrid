@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Thuc hanh </title>
+</head>
+<body>
+    <div class="title"><h2>SẢN PHẨM BÁN CHẠY NHẤT</h2></div>
+    <div class="container">
+    
+        <div class="item item1">
+            <img src="images/xoài.jpg" alt="anh shop" width="200" height="300">
+            <p>Xoài cát hòa lộc</p>
+            <p>180,000 đ/kg</p>
+            <button>Thêm vào giỏ hàng</button>
+            
+        </div>
+        <div class="item item2">
+            <img src="images/kiwi.jpg" alt="anh shop" width="200" height="300">
+            <p>Kiwi vàng</p>
+            <p>300,000 đ/kg</p>
+            <button>Thêm vào giỏ hàng</button>
+                
+            
+        </div>
+        <div class="item item3">
+            <img src="images/nho.jpg" alt="anh shop" width="200" height="300">
+            <p>Nho sữa Hàn Quốc</p>
+            <p>700,000 đ/kg</p>
+            <button>Thêm vào giỏ hàng</button>
+            
+        </div>
+        <div class=" item item4">
+            <img src="images/roi.jpg" alt="anh shop" width="200" height="300">
+            <p>Roi đỏ An Phước</p>
+            <p>80,000 đ/kg</p>
+            <button>Thêm vào giỏ hàng</button>
+            
+        </div>
+        <div class="item item5">
+            <img src="images/dia qua.jpg" alt="anh shop" width="200" height="300">
+            <p>Đĩa quả bổ sẵn kiểu 17</p>
+            <p>350,000 đ/đĩa</p>
+            <button>Thêm vào giỏ hàng</button>
+            
+        </div>
+        <div class="item item6">
+            <img src="images/dia qua 2.jpg" alt="anh shop" width="200" height="300">
+            <p>Đĩa quả bổ sẵn kiểu 21</p>
+            <p>500,000 đ/đĩa</p>
+            <button>Thêm vào giỏ hàng</button>
+            
+        </div>
+        <div class="item item7">
+            <img src="images/langqua.jpg" alt="anh shop" width="200" height="300">
+            <p>Lẵng quả kiểu 32</p>
+            <p>2,500,000 đ/lẵng</p>
+            <button>Thêm vào giỏ hàng</button>
+            
+        </div>
+        <div class="item item8">
+            <img src="images/langqua2.jpg" alt="anh shop" width="200" height="300">
+            <p>Lẵng quả kiểu 37</p>
+            <p>2,000,000 đ/lẵng</p>
+            <button>Thêm vào giỏ hàng</button>
+            
+        </div>
+    </div>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .container{
+            display: grid;
+            grid-column-gap: 50px;
+            grid-row-gap:40px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            
+        
+        }
+        .title{
+            text-align: center;
+            background-color: green;
+            color:aliceblue;
+            margin-bottom: 20px;
+            padding:10px 10px;
+        
+        }
+        button{
+            color:green;
+            margin-top: 10px;
+            padding:5px 5px;
+        }
+        p{
+            padding-top: 10px;
+        }
+        .item{
+            border: 1px solid grey;
+            padding:20px 20px 20px 20px;
+            text-align: center;
+            box-shadow: 0px 0px 5px black;
+            border-radius: 10px;
+            
+        }
+    </style>
+</body>
+</html>
